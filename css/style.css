@@ -1,8 +1,22 @@
-h1
+
+main h1
 {
     text-align: center;
     color: red;
 }
- p{
+p
+{
+    color: blue;
+}
+h3
+{
+ color: red;
+}
+ol
+{
+    color: blue;
+}
+ul
+{
     color: blue;
 }
