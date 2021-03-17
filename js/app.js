@@ -1,9 +1,12 @@
 'use strict';
+let gread=0;
 let myname = prompt('What do you expect my Name  to be? is ayah! yes or no');
 if(myname.toLowerCase() === 'yes')
 {
   alert('yes you are right');
   console.log('yes my name is ayah');
+
+  gread=gread+1;
 }else
 {
   alert('you are wrong');
@@ -13,6 +16,7 @@ if(myAge.toLowerCase() === 'no')
 {
   alert('yes you are right');
   console.log('yas my age is 26');
+  gread=gread+1;
 }else
 {
   alert('noooooooooo you are wrong');
@@ -23,6 +27,7 @@ if(from.toUpperCase() === 'Y')
 {
   alert('yes that right');
   console.log('yes i am from jordan');
+  gread=gread+1;
 }else
 {
   alert('you are wrong');
@@ -32,6 +37,7 @@ if(major.toUpperCase()=== 'YES')
 {
   alert( major+' ,Wow you are good');
   console.log('yes I am communicatin engineer');
+  gread=gread+1;
 }else
 {
   alert('you do not gat the right answer');
@@ -41,6 +47,7 @@ if(time.toLowerCase() === 'y')
 {
   alert( time +' yes you are corrict');
   console.log('yes I am graduated in 2017');
+  gread=gread+1;
 }else
 {
   alert('no you are wrong');
@@ -60,6 +67,7 @@ for (let i=1;i<5;i++)
   if (guess === ans)
   {
     alert('good ,50 is the righ ansawer');
+    gread=gread+1;
     break ;
   }
   else if(guess > ans)
@@ -97,9 +105,13 @@ alert('dont forget ,you have 6 time to choise corrict answer');
   }else
   {
     alert('good ,the right answer');
+    gread=gread+1;
     break;
   }
 }
+console.log(gread);
+alert('your gread in this game is : '+ gread);
+alert('Thank you for taking part in this game.');
 
 
 
