@@ -110,7 +110,7 @@ function colorGame(){
     let color = prompt(' what do you think is my favorite color?');
     alert('dont forget ,you have 6 time to choise corrict answer'+ i);
     { for (let i=0;i <favcolor.length;i++)
-      if(favcolor===color[i])
+      if(favcolor[i]===color)
       { alert('good ,the right answer');
         ans=true;
         gread=gread+1;
